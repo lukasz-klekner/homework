@@ -55,3 +55,58 @@ body {
   margin-left: 50px;
   border-right: 2px solid darksalmon;
 }
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 75px;
+}
+
+.section__header {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.section__title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.section__subject {
+  font-size: 1.1rem;
+  color: grey;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.section__description {
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+.article {
+  display: inline-block;
+  width: 325px;
+  text-align: center;
+  background-color: linen;
+  transition: 0.3s;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.article:hover {
+  outline: 1px solid lightslategray;
+  transform: scale(1.1);
+}
+
+.article__title {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.article__description {
+  font-size: 0.8rem;
+  padding: 15px;
+}
