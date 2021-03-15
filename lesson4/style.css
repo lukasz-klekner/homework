@@ -110,3 +110,82 @@ body {
   font-size: 0.8rem;
   padding: 15px;
 }
+
+.footer {
+  background-color: darksalmon;
+  padding-top: 50px;
+}
+
+.about-us {
+  width: 35%;
+  display: inline-block;
+  padding-left: 30px;
+  vertical-align: top;
+}
+
+.about-us__description {
+  margin-bottom: 15px;
+}
+
+.about-us__title {
+  margin-bottom: 30px;
+}
+
+.footer__link {
+  display: inline-block;
+  width: 500px;
+  vertical-align: bottom;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.footer__logo {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.log-in {
+  display: inline-block;
+  padding-left: 100px;
+  width: 30%;
+  margin-bottom: 100px;
+}
+
+.log-in__title {
+  /* margin-top: 20px; */
+  margin-bottom: 30px;
+}
+
+.form__paragraph {
+  margin-bottom: 20px;
+}
+
+.form__input {
+  display: block;
+  padding: 7px;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.form__input--inline,
+.form__label--inline {
+  display: inline-block;
+}
+
+.form__button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  width: 100px;
+  transition: 0.3s;
+}
+
+.form__button:hover {
+  opacity: 0.9;
+}
