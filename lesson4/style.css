@@ -98,6 +98,7 @@ body {
 .article:hover {
   outline: 1px solid lightslategray;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .article__title {
