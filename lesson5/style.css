@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(187, 88, 138);
+}
+
+.nav {
+  height: 10vh;
+  background-color: darksalmon;
+}
+
+.main {
+  height: 80vh;
+  background-color: darkred;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+.item {
+  width: 26%;
+  height: 25vh;
+  background-color: darksalmon;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.item-top {
+  height: 20%;
+  width: 80%;
+  background-color: darkred;
+}
+
+.item-main {
+  height: 60%;
+  width: 80%;
+  background-color: darkred;
+}
+
+.footer {
+  height: 10vh;
+  background-color: darksalmon;
+}
