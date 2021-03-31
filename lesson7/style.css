@@ -29,13 +29,119 @@ body {
 .wrapper {
   display: flex;
   width: 80vw;
-}
-
-.registration {
-  width: 50%;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 .main-image {
   width: 50%;
-  flex: 1;
+}
+
+.registration {
+  width: 50%;
+  padding-top: 50px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.social {
+  width: 65%;
+  padding: 10px;
+  border: 1px solid #413fb5;
+  border-radius: 5px;
+  font-size: 1.15rem;
+  font-weight: 500;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 7px rgba(100, 96, 106, 0.2);
+}
+
+.social-link {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.social-text {
+  margin-left: 15px;
+}
+
+.divider {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.divider span {
+  font-weight: 500;
+}
+
+.line {
+  width: 30%;
+  height: 1px;
+  background-color: silver;
+}
+
+.form {
+  width: 65%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.personal-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  width: 45%;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 15px;
+  border: 1px solid silver;
+}
+
+.full-input {
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 15px;
+  border: 1px solid silver;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+}
+
+.agreement {
+  margin-right: 10px;
+}
+
+.button {
+  font-size: 1.15rem;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #413fb5;
+  border: 1px solid #413fb5;
+  color: white;
+}
+
+.special {
+  border-bottom: 2px solid #413fb5;
+  text-decoration: none;
+  color: black;
 }
