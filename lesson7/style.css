@@ -19,7 +19,7 @@ body {
 }
 
 .main {
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -28,13 +28,18 @@ body {
 
 .wrapper {
   display: flex;
-  width: 80vw;
+  width: 50vw;
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 20px;
+  margin-top: 50px;
 }
 
 .main-image {
   width: 50%;
+  background-image: url("./assets/images/gym.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 20px 20px 0px;
 }
 
 .registration {
@@ -52,14 +57,14 @@ body {
 }
 
 .social {
-  width: 65%;
+  width: 85%;
   padding: 10px;
   border: 1px solid #413fb5;
   border-radius: 5px;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 500;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   box-shadow: 0px 0px 7px rgba(100, 96, 106, 0.2);
 }
 
@@ -76,7 +81,7 @@ body {
 }
 
 .divider {
-  width: 65%;
+  width: 85%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -89,13 +94,13 @@ body {
 }
 
 .line {
-  width: 30%;
+  width: 32%;
   height: 1px;
   background-color: silver;
 }
 
 .form {
-  width: 65%;
+  width: 85%;
   height: 40vh;
   display: flex;
   flex-direction: column;
@@ -144,4 +149,9 @@ body {
   border-bottom: 2px solid #413fb5;
   text-decoration: none;
   color: black;
+  font-weight: 500;
+}
+
+.footer {
+  margin-bottom: 30px;
 }
