@@ -27,3 +27,8 @@ console.log(2+2*2);
 const total = 2+2
 console.log('wynik,',total);
 
+/* zadanie 6 */
+let number = 1;
+number = 2;
+console.log(number);
+
