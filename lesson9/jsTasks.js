@@ -17,3 +17,9 @@ console.log(age);
 console.log(isOpen);
 console.log(stringBoolean);
 console.log(stringNumber);
+
+/* zadanie 4 */
+console.log(2+2);
+console.log('Michał '+'Kowalski');
+console.log(2+2*2);
+
