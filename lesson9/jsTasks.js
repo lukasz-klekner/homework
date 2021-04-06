@@ -23,3 +23,7 @@ console.log(2+2);
 console.log('Michał '+'Kowalski');
 console.log(2+2*2);
 
+/* zadanie 5 */
+const total = 2+2
+console.log('wynik,',total);
+
