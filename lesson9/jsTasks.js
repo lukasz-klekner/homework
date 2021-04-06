@@ -85,6 +85,22 @@ const myArray = [2,4,6]
 console.log(myArray.length)
 
 
-empty = [...empty, 'Łukasz']
-empty.push('Mateusz');
+empty = [...empty, 'Łukasz'] /* I spread operator */
+empty.push('Mateusz'); /* II metoda push */
 console.log(empty)
+
+/* zadanie 9 */
+const emptyObject = {}
+const person = {
+    name: 'Iza'
+}
+
+const personDetails = {
+    name: 'Łukasz',
+    lastName: 'Klekner',
+    age: 26,
+    drivingLicence: true,
+}
+
+console.log(personDetails.age)
+console.log(personDetails)
