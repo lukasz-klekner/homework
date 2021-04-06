@@ -32,3 +32,43 @@ let number = 1;
 number = 2;
 console.log(number);
 
+/* zadanie 7 */
+function add(){
+    return 2+2;
+}
+
+function sayHello(){
+    return `Hello World!`;
+}
+
+function isTrue(){
+    return true;
+}
+
+function modulo(){
+    return 6%4;
+}
+
+function power(){
+    return 3**4;
+}
+
+function greeting(){
+    return 'Hello, '+ 'how are you?';
+}
+
+function multiple(){
+    return 5*60;
+}
+
+function multiple2(){
+    return 3*3600;
+}
+
+function calculate(){
+    return 10*9/2;
+}
+
+function substraction(){
+    return 200-10;
+}
