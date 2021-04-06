@@ -104,3 +104,69 @@ const personDetails = {
 
 console.log(personDetails.age)
 console.log(personDetails)
+
+/* zadanie 10 */
+function sum(a=0,b=0){
+    return a+b
+}
+
+function displayString(a=""){
+    return a;
+}
+
+function isBoolean(isTrue){
+    if(isTrue === true || isTrue === false){
+        return isTrue
+    } else {
+        console.log(`To nie jest boolean`);
+    }
+}
+
+function remainder(a,b){
+    return a%b;
+}
+
+function power2(a,b){
+    return a**b;
+}
+
+function concatenation(a,b){
+    return a+b;
+}
+
+function minutesToSeconds(minutes){
+    return minutes*60;
+}
+
+function HoursToSeconds(hours){
+    return hours*60*60;
+}
+
+function areaOfATriagnle(basis, height){
+    return (basis*height)/2;
+}
+
+function yearsToDays(years){
+    return years*365;
+}
+
+function power3(a){
+    return a**a;
+}
+
+function longerSideOfATriangle(side1, side2){
+    return side1-side2+1;
+}
+
+function hello(name){
+    return console.log('Cześć, ', name)
+}
+
+function howOldAreYou(year){
+    const date = new Date()
+    return date.getFullYear() - year;
+}
+
+function score(x,y){
+    return x*2+y*3;
+}
