@@ -10,3 +10,10 @@ console.log('Michał');
 console.log('Hello Ania');
 console.log(4);
 console.log(false);
+
+/* zadanie 3 */
+console.log(name);
+console.log(age);
+console.log(isOpen);
+console.log(stringBoolean);
+console.log(stringNumber);
