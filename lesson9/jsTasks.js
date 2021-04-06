@@ -72,3 +72,19 @@ function calculate(){
 function substraction(){
     return 200-10;
 }
+
+/* zadanie 8 */
+const numbers = [1,2,3];
+const cars = ['BMW,','Jeep','Honda', 'KIA', 'Peugeot']
+const booleans = [true, false, true]
+let empty = []
+const mixture = [2, 'true', true, ' ', [1,2,3,4,5]]
+console.log(mixture[1]);
+
+const myArray = [2,4,6]
+console.log(myArray.length)
+
+
+empty = [...empty, 'Łukasz']
+empty.push('Mateusz');
+console.log(empty)
