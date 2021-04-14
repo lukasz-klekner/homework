@@ -70,3 +70,59 @@ function changeAge(person, ageToAdd){
 
 const newPerson = changeAge(person, 28);
 console.table(newPerson);
+
+/*zadanie 3 */
+function drivingACar(age, doYouHaveADrivingLicence){
+    if(age < 18 || ( age >=18 && !doYouHaveADrivingLicence)) return console.log('Nie ma prawa jazdy.')
+
+    if(age >=18 && doYouHaveADrivingLicence) return console.log('Możesz śmiało jeździć.')
+}
+
+function buyOrSell(string){
+    switch(string){
+        case 'Kup':
+            return console.log('Widzę, że zrobić zakupy');
+        case 'Sprzedaj':
+            return console.log('Możesz tutaj swobodnie sprzedawać');
+        default:
+            return console.log('Nie wybrałeś żadnej z dostępnych opcji - wpisz Kup lub Sprzedaj');
+    }
+}
+
+function infoAboutNumber(number){
+    if(number > 0){
+        return console.log('Liczba jest dodatnia')
+    } else if(number < 0){
+        return console.log('Liczba jest ujemna')
+    } else {
+        return console.log('Liczba jest równa 0')
+    }
+}
+
+function infoAboutNumber2(number){
+    if(number%3===0 && number%5 === 0){
+        return console.log('FizzBuzz')
+    } else if(number%3===0){
+        return console.log('Fizz')
+    } else if(number%5===0) {
+        return console.log('Buzz')
+    } else {
+        return null;
+    }
+}
+
+function canYouWatchAFilm(age,agreement=false){
+    if(age > 15 || agreement) {
+        return console.log('Możesz oglądac film!')
+    } else {
+        return console.log('Nie możesz ogladac filmu!')
+    }
+}
+
+function yesOrNo(arg){
+    return arg? 'Yes' : 'no';
+}
+
+function isEven(number){
+    return number%2===0? 'Liczba jest parzysta' : 'Liczba jest nieparzysta';
+}
