@@ -126,3 +126,28 @@ function yesOrNo(arg){
 function isEven(number){
     return number%2===0? 'Liczba jest parzysta' : 'Liczba jest nieparzysta';
 }
+
+/* zadanie 4 */
+function isACarProduced({model, marka, yearOfProduction, isCabrio}){
+    const date = new Date();
+    if(yearOfProduction > date.getFullYear()) {
+        return console.log('Car nie zostal wyprodukowany')
+    } else {
+        return console.log(`Samochód ${model}  ${marka} zostal wyprodukowany w ${yearOfProduction}. ${isCabrio? "Samochód jest kabrioletem":""}`)
+    }
+}
+
+function howManyItems(array=[]){
+    return array.length ? `Tablica ma ${array.length} elementow`: 'Pusta tablica'
+}
+
+function doYouLikeReadingBooks({imie, czyLubiCzytac, maTV}, {nazwaKsiazki, stronyKsiazki}){
+    if(czyLubiCzytac){
+        return console.log(`Cześć ${imie}, polecam Ci przeczytać ${nazwaKsiazki} książkę, ma tylko
+        ${stronyKsiazki} stron`)
+    } else if (!czyLubiCzytac && maTV){
+        return console.log(`Poszedł oglądać tv`)
+    } else if (!maTV) {
+        return console.log('nie wiem co ci zaproponowac, moze... Rozbierz sie i pilnuj ubranie :)')
+    }
+}
