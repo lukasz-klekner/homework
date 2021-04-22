@@ -55,3 +55,14 @@ koszykowka.rzutZaDwaPkt();
 koszykowka.rzutZaTrzyPkt();
 console.log(`Gratulacje!!! Zdobyleś ${koszykowka.stan.wynik} pkt!!!`);
 
+/*zadanie 6 */
+const pralka = {
+    nazwa: 'Whirlpool',
+    liczbaProgramow: 5,
+    info(){
+        return console.log(`Pralka o modelu ${this.nazwa} ma ${this.liczbaProgramow} programów!`);
+    }
+}
+
+console.log(pralka.info());
+
