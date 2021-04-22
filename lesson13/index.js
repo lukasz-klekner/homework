@@ -29,3 +29,29 @@ console.log(++licznik); //warotsc jest dodana natychmiastowo (przed wykorzystani
 console.log(licznik++) // wartosc jest dopiero zakutalizowana w nastepnej instrukcji dlatego wciaz wyswietla nam 6, a nie 7 (po wykorzystaniu zmiennej)
 console.log(licznik) // dopiero mamy 7 po postinkrementacji
 
+/* zadanie 5 */
+function kosz(){
+    stan = {
+        wynik: 0,
+    }
+    function rzutZaDwaPkt(){
+        stan.wynik+=2;
+    }
+
+    function rzutZaTrzyPkt(){
+        stan.wynik+=3;
+    }
+
+    return {
+        stan,
+        rzutZaDwaPkt,
+        rzutZaTrzyPkt,
+    }
+}
+
+const koszykowka = kosz()
+koszykowka.rzutZaDwaPkt();
+koszykowka.rzutZaDwaPkt();
+koszykowka.rzutZaTrzyPkt();
+console.log(`Gratulacje!!! Zdobyleś ${koszykowka.stan.wynik} pkt!!!`);
+
