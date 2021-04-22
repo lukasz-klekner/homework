@@ -23,4 +23,9 @@ function info3({marka, model, rok_produkcji}){
 
 info3(car);
 
+/* zadanie 4 */
+let licznik = 5;
+console.log(++licznik); //warotsc jest dodana natychmiastowo (przed wykorzystaniem zmiennej)
+console.log(licznik++) // wartosc jest dopiero zakutalizowana w nastepnej instrukcji dlatego wciaz wyswietla nam 6, a nie 7 (po wykorzystaniu zmiennej)
+console.log(licznik) // dopiero mamy 7 po postinkrementacji
 
