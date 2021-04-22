@@ -66,3 +66,32 @@ const pralka = {
 
 console.log(pralka.info());
 
+/* zadanie 7 */
+
+/* O cholerka to dosc zlozone pojecia moglbym pisac i pisac.. spróbuje w skrócie
+Kopia - czyli "kopiujemy" wartosc ze zmiennej i wartosc drugiej zmiennej jest  taka sama ale podczas modyfikacji jednej ze zmiennych nie modyfikujemy drugiej */
+let a = 7
+let b = a;
+a = 25;
+console.log(a, b)
+/* Referencja - czyli wskazujemy adres (najczesciej obiektu/tablicy), i jesli edytujemy taki obiekt to modyfikujemy wszystkie obiekty ktore maja ten adres */
+const person = {
+    firstName : 'Lukasz',
+}
+
+const person2 = person;
+person2.firstName = 'Mateusz',
+
+console.log(person.firstName)
+console.log(person2.firstName)
+
+/* aby zapobiec takiej sytuacji powinnismy utworzyc kopie obiektu */
+const person3 = {
+    firstName : 'Lukasz',
+}
+
+const person4 = {...person3};
+person3.firstName = 'Mateusz',
+
+console.log(person3.firstName)
+console.log(person4.firstName)
