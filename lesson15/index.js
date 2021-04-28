@@ -61,3 +61,37 @@ for(let i=100; i >= 0; i-=5){
         console.log(i)
     }
 }
+
+/* zadanie 3 */
+
+function loop(end){
+    for(let i=0; i<= end; i++){
+        console.log(i);
+    }
+}
+
+function loop2(start){
+    for(let i=start; i<= 15; i++){
+        console.log(i);
+    }
+}
+
+function loop3(index){
+    for(let i=0; i<= 15; i+=index){
+        console.log(i);
+    }
+}
+
+function loop4(start, end){
+    for(let i=start; i<= end; i++){
+        console.log(i);
+    }
+}
+
+function loop5(start, end, index){
+    for(let i=start; i<= end; i+=index){
+        console.log(i);
+    }
+}
+
+
