@@ -94,4 +94,34 @@ function loop5(start, end, index){
     }
 }
 
+/* zadanie 4 */
+const array=[1,2,3,4,5]
+
+array.forEach(item => console.log(item));
+
+const names=['mateusz', 'mati', 'matt']
+names.forEach(item => console.log(`Czesc ${item}`));
+
+const cars =[
+    {
+        model: "BWM",
+        color: "black",
+    },
+    {
+        model: "Fiat",
+        color: "red",
+    },
+]
+
+cars.forEach(({model, color}) => console.log(`Przed Wami stoi ${color} ${model}`))
+
+const numbers = [1,2,3,4,5,6,7,8,9,10]
+const evenNumbers = numbers.filter(number => number%2===0)
+evenNumbers.forEach(item => console.log(item));
+
+const mix = [2,3,'elo', 'hello', 'blablabla']
+const stringi = mix.filter(item => typeof item === 'string')
+stringi.forEach(item => console.log(item));
+
+const numberssss = mix.filter(item => typeof item === 'number')
 
