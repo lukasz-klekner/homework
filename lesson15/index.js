@@ -125,3 +125,107 @@ stringi.forEach(item => console.log(item));
 
 const numberssss = mix.filter(item => typeof item === 'number')
 
+/* zadanie 5 */
+function total(array){
+    const total =array.reduce((a,b) => a+b,0);
+    return total;
+}
+
+let even=[];
+let odd=[];
+
+function divide(array){
+    even = array.filter(number => number%2===0)
+    odd = array.filter(number => number%2!==0)
+}
+
+function isItY(sentence){
+    if(sentence.includes('y')) {
+        return console.log('Jest!')
+    } else {
+        return console.log('nie ma')
+    }
+}
+
+function silnia(n){
+    if(n === 1){
+     return 1;
+    } else {
+        return n*silnia(n-1);
+    }
+}
+
+function concat(array, type){
+    if(array.length === 0) {
+        return console.log('Podaj tablice!')
+    }
+
+    if(type==='number'){
+        return array.reduce((a,b) => a+b,0);
+    } else if(type=== 'string'){
+        if(type==='string'){
+            return array.reduce((a,b) => a+b,'');
+        }
+    } else {
+        return console.log('Drugi parametr jest nieprawidlowy!');
+    }
+}
+
+const people = [
+    {
+        name: 'Lukasz',
+        lastName: 'Klekner',
+        hasCar: true,
+        hasDrivingLicence: true,
+    },
+    {
+        name: 'Jan',
+        lastName: 'Kowalski',
+        hasCar: false,
+        hasDrivingLicence: true,
+    },
+    {
+        name: 'Anna',
+        lastName: 'Konopko',
+        hasCar: false,
+        hasDrivingLicence: false,
+    },
+    {
+        name: 'Bonifacy',
+        lastName: 'Kamien',
+        hasCar: true,
+        hasDrivingLicence: true
+    },
+]
+
+
+function whoCanGiveMeAlLift(array){
+    for (i = 0; i < array.length; i++) {
+        if (array[i].hasDrivingLicence === true && array[i].hasCar === true) {
+            console.log(`${array[i].name} ma prawo jazdy i samochod wiec moze Cie podwiezc`)
+        } else if (array[i].hasDrivingLicence === true && array[i].hasCar === false) {
+            console.log(`${array[i].name} ma prawo jazdy ale nie ma samochodu wiec nie moze Ciebie podwiezc swoim samochodem`)
+        } else if (array[i].hasDrivingLicence === false && array[i].hasCar === true) {
+            console.log(`${array[i].name} ma samochod, ale nie ma prawa jazdy, wiec nie moze Cie podwiezc`)
+        } else {
+            console.log(`${array[i].name} nie ma prawa jazdy ani samochodu wiec nie podwiezie Ciebie`)
+        }
+    }
+}
+
+function addNewElement(array, newElement){
+    if(array.length > 0) {
+        const isItInArray = array.find(item => item === newElement)
+        console.log(isItInArray)
+
+        if(!isItInArray) {
+            return [...array, newElement];
+        }
+
+        return console.log('Taki elementu juz istnieje w tablicy!')
+
+    } else {
+        return console.log('Tablica jest pusta!')
+    }
+}
+
