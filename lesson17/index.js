@@ -66,5 +66,5 @@ const carsToRentFor3500 = rentalCarCompany.filter(({price}) => price*7<= 3500);
 console.log(carsToRentFor3500);
 
 /* g */
-const carsRentTheMostOften = rentalCarCompany.sort((a,b) => b.carsToRent/b.allCarsNumber-a.carsToRent/a.allCarsNumber).splice(0,3)
+const carsRentTheMostOften = rentalCarCompany.sort((a,b) => a.carsToRent/a.allCarsNumber-b.carsToRent/b.allCarsNumber).splice(0,3)
 console.log(carsRentTheMostOften);
