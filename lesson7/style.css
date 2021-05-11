@@ -1,157 +1,56 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 *:after,
 *:before {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: system-ui;
-  font-size: 10px;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.main {
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.wrapper {
-  display: flex;
-  width: 50vw;
-  border: 1px solid black;
-  border-radius: 20px;
-  margin-top: 50px;
-  box-shadow: 0px 0px 7px rgba(100, 96, 106, 0.2);
-}
-
-.main-image {
-  width: 50%;
-  background-image: url("./assets/images/gym.jpg");
-  background-size: cover;
-  background-position: center;
-  border-radius: 0 20px 20px 0px;
-}
-
-.registration {
-  width: 50%;
-  padding-top: 50px;
-  padding-left: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.title {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-}
-
-.social {
-  width: 85%;
-  padding: 10px;
-  border: 1px solid #413fb5;
-  border-radius: 5px;
-  font-size: 1.05rem;
-  font-weight: 500;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.social-link {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  text-decoration: none;
-  color: black;
-}
-
-.social-text {
-  margin-left: 15px;
-}
-
-.divider {
-  width: 85%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 25px;
-  margin-bottom: 20px;
-}
-
-.divider span {
-  font-weight: 500;
-}
-
-.line {
-  width: 32%;
-  height: 1px;
-  background-color: silver;
+    box-sizing: border-box;
 }
 
 .form {
-  width: 85%;
-  height: 40vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+    width: 85%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .personal-details {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .input {
-  width: 45%;
-  padding: 10px;
-  padding-left: 20px;
-  border-radius: 8px;
-  border: 1px solid silver;
+    width: 45%;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 8px;
+    border: 1px solid silver;
 }
 
 .full-input {
-  padding: 10px;
-  padding-left: 20px;
-  border-radius: 8px;
-  border: 1px solid silver;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 8px;
+    border: 1px solid silver;
 }
 
 .label {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .agreement {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 .button {
-  font-size: 1.15rem;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #413fb5;
-  border: 1px solid #413fb5;
-  color: white;
-}
-
-.special {
-  border-bottom: 2px solid #413fb5;
-  text-decoration: none;
-  color: black;
-  font-weight: 600;
-}
-
-.footer {
-  margin-bottom: 30px;
+    font-size: 1.15rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #413fb5;
+    border: 1px solid #413fb5;
+    color: white;
 }
